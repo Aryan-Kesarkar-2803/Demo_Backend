@@ -11,7 +11,7 @@ app.listen(process.env.PORT,()=>{
 })
 
 async function connectDB(){
-    await mongoose.connect(`${MONGODB_URL}/${DB_NAME}`)
+    await mongoose.connect(`${process.env.MONGODB_URL}/${DB_NAME}`)
     .then(()=>{
         console.log('Database Connected');
     })
