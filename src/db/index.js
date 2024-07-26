@@ -11,6 +11,6 @@ const connectDB = async () => {
     console.log(`MongoDB error - ${err}`);
     process.exit(1);
   }
-}; // connecting mongoDB professionally
+};
 
 export default connectDB;
