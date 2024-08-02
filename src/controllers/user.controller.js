@@ -57,4 +57,11 @@ const registerUser = asyncHandler(async (req, res) => {
   res.status(201).json(new ApiResponse(200, "User Created Successfully"));
 });
 
-export default registerUser;
+const loginUser = asyncHandler(async (req,res) =>{
+
+})
+
+export {
+  registerUser,
+  loginUser,
+};
