@@ -15,7 +15,6 @@ userRouter.route('/register')
     }
 ]),registerUser)
 
-
 userRouter.route('/login')
 
 
